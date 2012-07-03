@@ -1,0 +1,16 @@
+>> Présentation
+Ce plugin permet à vos clients de saisir un message avant de valider leur commande.
+Le message est enregistré en base de données.
+Vous pouvez en prendre connaissance dans l'admin sur le détail de la commande.
+Le plugin propose également un moyen d'inclure ce message dans les mails de confirmation commande
+(substitution __COMMENTAIRE_COMMANDE__)
+
+
+>> Installation
+Veuillez simplement glisser le répertoire bouclecouleur dans le dossier client/plugins/ de votre Thelia.
+Dans votre template, insérez un champs de formulaire ayant pour nom "commentairecommande" :
+
+<textarea name="commentairecommande"></textarea>
+
+
+>> Auteur : Cyril Batillat, scopika.com
